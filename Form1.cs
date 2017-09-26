@@ -15,5 +15,13 @@ namespace Demo
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a, b, c;
+            a = int.Parse(textBox1.Text);
+            b = int.Parse(textBox2.Text);
+            textBox3.Text = (a + b).ToString();
+        }
     }
 }
